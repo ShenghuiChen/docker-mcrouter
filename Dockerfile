@@ -1,5 +1,3 @@
-
-```
 FROM ubuntu:18.04 
 MAINTAINER 66951913@qq.com
 
@@ -18,5 +16,5 @@ RUN apt-get update && \
 #timezone
 RUN ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
   echo "Asia/Shanghai" > /etc/timezone
-```
+
 
